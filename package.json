@@ -1,0 +1,28 @@
+{
+  "name": "fd-bot",
+  "version": "0.0.1",
+  "description": "Globalban and Utility bot made by freech_dev",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "freech_dev",
+  "type": "module",
+  "devDependencies": {
+    "better-sqlite3": "^8.5.0",
+    "discord.js": "^14.11.0",
+    "fivem-server": "^1.0.1",
+    "install": "^0.13.0",
+    "node-gyp": "^9.4.0",
+    "npm": "^9.8.1",
+    "quick.db": "^9.1.7",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cfx-api": "^1.1.0",
+    "discordjs-logger": "^4.0.1",
+    "js-yaml": "^4.1.0",
+    "mysql2": "^3.6.0"
+  }
+}

@@ -1,0 +1,59 @@
+My Drive
+dbConfig: 
+  host: "PLACEHOLDER" ## The ip of your db host without the port
+  port: PLACEHOLDER ## The port of your db host, should normally be 3306
+  user: "PLACEHOLDER" ## The username for your database account
+  password: "PLACEHOLDER" ## The password for your database account
+  database: "PLACEHOLDER" ## The name of your database
+
+token: "PLACEHOLDER" # Your bot token
+BotName: "PLACEHOLDER" ## Your desired bot name for embeds
+
+license: "PLACEHOLDER" ## Your license key
+VerifiedRole: "PLACEHOLDER" ## Role to be added after verification
+UnVerifiedRole: "PLACEHOLDER" ## Role to be added before verification
+MainGuild: "PLACEHOLDER" ## The main guild id in your server
+MaxWarnings: "3" ## Max warnings before the user is kicked by automod
+BlacklistedWords: ## Words to be triggered by automod
+  - "scam"
+  - "Scam"
+  - "https:"
+  - "discord.gg"
+  - "nigger"
+  
+LogChannelID: 'PLACEHOLDER' ## Channel for automod and other logs to go to
+ 
+ReportChannel: "PLACEHOLDER" ## Channel for reports to be sent to
+
+GlobalActionPerms: ## What role id should have access to global actions 
+## /globalban, /globalunban, /globalkick
+  - "PLACEHOLDER"
+
+ModerationActionPerms: ## What role id should have access to moderation actions 
+## /kick, /softban, /timeout, /untimeout
+  - "PLACEHOLDER"
+  - "PLACEHOLDER"
+  - "PLACEHOLDER"
+  - "PLACEHOLDER"
+
+RoleActionPerms: ## What role id should have access to role actions 
+## /roleadd, /roleaddall, /roleremove, /rolestrip
+  - "PLACEHOLDER"
+  - "PLACEHOLDER"
+  - "PLACEHOLDER"
+  - "PLACEHOLDER"
+
+GeneralSupportTicketCatagory: "PLACEHOLDER"
+GeneralTicketSupportTeamRole: "PLACEHOLDER"
+
+ManagmentSupportTicketCatagory: "PLACEHOLDER"
+ManagmentTicketSupportTeamRole: "PLACEHOLDER"
+
+DepartmentReportTicketCatagory: "PLACEHOLDER"
+DepartmentReportSupportTeamRole: "PLACEHOLDER"
+
+StaffReportTicketCatagory: "PLACEHOLDER"
+StaffReportSupportTeamRole : "PLACEHOLDER"
+
+StoreIssueSupportTicketCatagory: "PLACEHOLDER"
+StoreIssueTicketSupportTeamRole: "PLACEHOLDER"
